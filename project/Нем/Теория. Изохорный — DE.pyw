@@ -1,0 +1,38 @@
+from tkinter import *
+from tkinter import messagebox
+
+a = "nothing"
+
+root = Tk()
+root.title("Theorie. Helmholtz Prozeß")
+root.geometry("1300x300")
+
+Task = Label(text = "Helmholtz Prozeß")
+Task.grid(row = 1, column = 0, sticky = "w")
+Task1 = Label(text = "Ein Helmholtz Prozeß wird als Prozess bezeichnet, der bei einem Konstanten Volumen (V = Konstante) und unter der Bedingung m = Konstante und M = Konstante abläuft.")
+Task1.grid(row = 2, column = 0, sticky = "w")
+Task2 = Label(text = "Unter diesen Bedingungen folgt aus der Zustandsgleichung des idealen Gases für die beiden Temperaturwerte T₀ und T: P₀V = m, RV = MRT oder P/P₀ = T/T₀")
+Task2.grid(row = 3, column = 0, sticky = "w")
+Task3 = Label(text = "Für das Gas der gegebenen Masse ist das Verhältnis des Drucks zur Temperatur konstant, wenn sich das Volumen des Gases nicht ändert.")
+Task3.grid(row = 4, column = 0, sticky = "w")
+Task4 = Label(text = "Bei P1 / P2 = T1 / T2 (diese Gleichung wird Charles Gesetz genannt) gilt Sie für den Helmholtz Prozeß: V = Konstante.")
+Task4.grid(row = 5, column = 0, sticky = "w")
+Task5 = Label(text = "Wenn V — das Gasvolumen bei der absoluten Temperatur T ist, ist V₀ — das Gasvolumen bei der Temperatur 0° C;")
+Task5.grid(row = 6, column = 0, sticky = "w")
+Task6 = Label(text = "der Koeffizient a gleich 1/273 K¯¹, genannten Temperaturkoeffizienten der Volumenausdehnung der Gase, dann ist die Gleichung für Helmholtz Prozeß kann man schreiben als P = P₀ × a × T.")
+Task6.grid(row = 7, column = 0, sticky = "w")
+Task7 = Label(text = "Die Kurve des Helmholtz Prozeß wird isochora genannt.")
+Task7.grid(row = 8, column = 0, sticky = "w")
+Task8 = Label(text = "Isochora, dargestellt in einem rechteckigen Koordinatensystem (P – V), auf der Achse ordinate, die Gasdruck berechnet wird, und auf der Achse Abszisse-sein Volumen, ist eine gerade parallel zur Achse ordinate")
+Task8.grid(row = 9, column = 0, sticky = "w")
+Task9 = Label(text = "Der isochor, der in einem rechteckigen Koordinatensystem (V – T) dargestellt wird, ist eine gerade parallel zur Achse der Abszisse")
+Task9.grid(row = 10, column = 0, sticky = "w")
+Task10 = Label(text = "Изохора, dargestellt im kartesischen Koordinatensystem (P – T), auf der Y-Achse beginnt mit dem Druck des Gases, und die x — Achse die absolute Temperatur, ist der geraden durch den Ursprung")
+Task10.grid(row = 11, column = 0, sticky = "w")
+Task11 = Label(text = "Experimentell wurde die Abhängigkeit des Gasdrucks von der Temperatur von dem französischen Physiker Jacques Charles im Jahre 1787 untersucht.")
+Task11.grid(row = 12, column = 0, sticky = "w")
+Task12 = Label(text = "Der Helmholtz Prozeß kann beispielsweise durch erhitzen von Luft bei einem Konstanten Volumen durchgeführt werden.")
+Task12.grid(row = 13, column = 0, sticky = "w")
+Task13 = Label(text = "Quelle: https://studfiles.net/preview/5661952/page:3/")
+Task13.grid(row = 14, column = 0, sticky = "w")
+root.mainloop()

@@ -1,0 +1,38 @@
+from tkinter import *
+from tkinter import messagebox
+
+a = "nothing"
+
+root = Tk()
+root.title("Teorie. Isochorický děj")
+root.geometry("1300x300")
+
+Task = Label(text = "Isochorický děj")
+Task.grid(row = 1, column = 0, sticky = "w")
+Task1 = Label(text = "Isochorický děj se nazývá proces, který teče při konstantním objemu (V = konst) a za předpokladu m = konst a M = konst.")
+Task1.grid(row = 2, column = 0, sticky = "w")
+Task2 = Label(text = "Za těchto okolností se z rovnice stavu ideálního plynu pro dvě hodnoty teploty T0 a T takto: P0V = m, РV = МRT nebo P / P0 = T / T0")
+Task2.grid(row = 3, column = 0, sticky = "w")
+Task3 = Label(text = "U plynu této hmotnosti je poměr tlaku k teplotě konstantní, pokud se objem plynu nezmění.")
+Task3.grid(row = 4, column = 0, sticky = "w")
+Task4 = Label(text = "Při P1 / P2 = T1 / T2 (tato rovnice se nazývá Charlesův zákon), je použitelná pro isochorický proces: V = konst.")
+Task4.grid(row = 5, column = 0, sticky = "w")
+Task5 = Label(text = "Pokud V — objem plynu při absolutní teplotě T, V0 — objem plynu při teplotě 0° C;")
+Task5.grid(row = 6, column = 0, sticky = "w")
+Task6 = Label(text = "koeficient a, rovný 1/273 K¯¹, nazývá se teplotní koeficient objemové expanze plynů, rovnice pro isochorický proces může být zapsána jako P = P0 × a × T.")
+Task6.grid(row = 7, column = 0, sticky = "w")
+Task7 = Label(text = "Křivka izochorického procesu se nazývá isochora.")
+Task7.grid(row = 8, column = 0, sticky = "w")
+Task8 = Label(text = "Izochora zobrazená v pravoúhlém souřadnicovém systému (P — V), jehož osa je vypočtena podle tlaku plynu a osa absciss-jeho objem, je přímá, rovnoběžná s osou ordinát")
+Task8.grid(row = 9, column = 0, sticky = "w")
+Task9 = Label(text = "Izochora zobrazená v pravoúhlém souřadnicovém systému (V — T) je rovná, rovnoběžná osa absciss")
+Task9.grid(row = 10, column = 0, sticky = "w")
+Task10 = Label(text = "Izochora zobrazená v pravoúhlém souřadnicovém systému (P — T), jehož osa je vypočtena tlakem plynu a osa absciss-jeho absolutní teplota, je přímá, procházející počátečními souřadnicemi")
+Task10.grid(row = 11, column = 0, sticky = "w")
+Task11 = Label(text = "Experimentálním způsobem závislost tlaku plynu na teplotě zkoumal francouzský fyzik Jacques Charles V roce 1787.")
+Task11.grid(row = 12, column = 0, sticky = "w")
+Task12 = Label(text = "Isochorny proces může být prováděn, například ohřev vzduchu v konstantním objemu.")
+Task12.grid(row = 13, column = 0, sticky = "w")
+Task13 = Label(text = "Zdroj: https://studfiles.net/preview/5661952/page:3/")
+Task13.grid(row = 14, column = 0, sticky = "w")
+root.mainloop()
